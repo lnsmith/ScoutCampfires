@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def budget(request): 
+    scoutType = request.GET.get('scoutType')
+    return render(request, 'budget/home.html',{'scoutType':scoutType})
