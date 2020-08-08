@@ -10,7 +10,7 @@ Data displayed = BudgetItem with description and total (entered via the admin pa
 
 Data to enter = BudgetRecord(s) using a form and calculate total (via calculate button that runs python on data in database and returns to display in view) 
 
-Presentation - need to add bootstrap/better html/css and javascript where needed, also need to figure out graphics/color scheme
+Presentation - need to add bootstrap/better html/css and javascript, and figure out graphics/color scheme. Will probably use Angular for this. 
 
 # Known Bugs: 
 1. In Admin - get distinct list of description items into BudgetRecord from BudgetItem - 
