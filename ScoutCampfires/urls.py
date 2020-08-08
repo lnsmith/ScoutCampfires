@@ -4,8 +4,6 @@ from django.conf import settings
 import campfire.views as campfire_views 
 import budget.views as budget_views
 
-# app_name = 'blog'
-
 urlpatterns = [
     path('', campfire_views.home, name='home'),
     path('admin/', admin.site.urls),
